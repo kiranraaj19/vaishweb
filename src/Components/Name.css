@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+.Name {
+    font-family: 'EB Garamond', serif;
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-size: 5.9vh;
+    transform: rotate(180deg);
+    color: #48BB78;
+    
+}
+
+.spacer {
+    width: 50px;
+}
