@@ -3,8 +3,11 @@ import { Flex } from '@chakra-ui/react'
 import MainContent from './Components/MainContent'
 import Sidebar from './Components/Sidebar'
 import Name from './Components/Name'
+import Footer from './Components/Footer'
+
 function App() {
   return (
+  <>
     <Flex h="80vh" w="80vw">
       <Name />
       <MainContent />
@@ -16,6 +19,8 @@ function App() {
       ]}
       />
     </Flex>
+    <Footer />
+  </>
   );
 }
 

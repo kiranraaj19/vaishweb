@@ -1,0 +1,10 @@
+.icons {
+    fill: "#ffffff";
+    color: "#48BB78";
+    transition: "0.5s"
+}
+
+.icons:hover {
+    fill: "#48BB78";
+    color: "#48BB78"
+}
