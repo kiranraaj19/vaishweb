@@ -1,7 +1,7 @@
 import React from 'react';
 import { Flex } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import './Sidebar.css'
+import './css/Sidebar.css'
 import {Link} from "react-router-dom"
 
 function Sidebar(props) {

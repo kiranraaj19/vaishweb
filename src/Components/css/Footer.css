@@ -1,0 +1,21 @@
+@keyframes fillcolor {
+    0% {
+        color: #48BB78;
+        fill: #ffffff;
+    }
+
+    100% {
+        color: #48BB78;
+        fill: #48BB78;
+        transform : scale(1.2);
+    }
+}
+
+.Container>* {
+    color: #48BB78;
+}
+
+.Container>*:hover {
+    animation: fillcolor 0.1s ease-in;
+    animation-fill-mode: forwards;
+}

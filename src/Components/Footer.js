@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box,Flex } from '@chakra-ui/react'
 import { FiLinkedin, FiTwitter } from "react-icons/fi";
-import './Footer.css'
+import './css/Footer.css'
 
 
 function Footer() {
