@@ -4,7 +4,25 @@
     font-family: 'EB Garamond', serif;
     font-size: 1.5em;
     color: #48BB78;
+    height: 100%;
 }
 
 
+.item {
+    height: 500px;
+    width: 375px;
+    padding: 10px;
+}
 
+.item img {
+    border-radius: 5px;
+}
+
+.inner-carousel {
+    width: 375px;
+}
+
+.carousel {
+    min-width: 375px;
+    overflow: hidden;
+}

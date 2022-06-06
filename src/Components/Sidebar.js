@@ -11,7 +11,7 @@ function Sidebar(props) {
 
         <Flex direction="column" justify="space-around">
             {props.Tabs.map((prop) =>
-                <Link to={prop.link}>
+                <Link to={prop.link} key={prop.id}>
                 <motion.div
                     initial={{ rotate: 90 }}
                     whileHover={{ scale: 1.3 }}
