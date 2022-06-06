@@ -4,12 +4,14 @@
     font-family: 'EB Garamond', serif;
     writing-mode: vertical-lr;
     text-orientation: sideways;
-    font-size: 5.9vh;
+    font-size: 3em;
     transform: rotate(180deg);
     color: #48BB78;
+    max-width: 80px;
+    min-height: 695px;
     
 }
 
 .spacer {
-    width: 50px;
+    width: 30px;
 }

@@ -5,11 +5,12 @@ import Sidebar from './Components/Sidebar'
 import Name from './Components/Name'
 import Footer from './Components/Footer'
 import { BrowserRouter as Router} from "react-router-dom";
+import "./App.css"
 
 function App() {
   return (
     <Router>
-      <Flex h="80vh" w="80vw">
+      <Flex h="80vh" w="100vw" className="container">
         <Name />
         <MainContent />
         <Sidebar
