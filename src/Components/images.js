@@ -3,4 +3,4 @@ import image2 from "./assets/vaish3.jpg"
 import image3 from "./assets/vaish4.jpeg"
 import image4 from "./assets/vaish5.jpeg"
 
-export default [image3,image2,image1,image4];
+export default [image3];

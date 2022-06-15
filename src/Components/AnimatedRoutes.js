@@ -1,8 +1,7 @@
 import React from 'react';
 import { Route, Routes, useLocation } from "react-router-dom";
 import HomePage from "./HomePage"
-import AboutPage from "./AboutPage"
-import LinkPage from "./LinkPage"
+import ContactPage from "./ContactPage"
 import { AnimatePresence } from "framer-motion"
 
 function AnimatedRoutes() {
@@ -12,8 +11,7 @@ function AnimatedRoutes() {
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
                 <Route exact path="/" element={<HomePage />} />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/link" element={<LinkPage />} />
+                <Route exact path="/contact" element={<ContactPage/>} />
             </Routes>
         </AnimatePresence>
     );
