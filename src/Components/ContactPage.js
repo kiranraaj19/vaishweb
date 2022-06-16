@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 function ContactPage() {
 
     return (
-        <motion.div className="container" initial = {{opacity:0}} animate={{opacity:4}} transition={{duration:1.5}}>
+        <motion.div className="container" initial = {{opacity:0}} animate={{opacity:1}} transition={{duration:1.5}}>
             <Flex direction="column" gap="25px" w="60%" justify="center">
                 <Input placeholder="Name" focusBorderColor="green.200" />
                 <Input placeholder="Email" focusBorderColor="green.200" />
