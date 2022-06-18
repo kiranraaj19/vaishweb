@@ -26,3 +26,8 @@
     min-width: 375px;
     overflow: hidden;
 }
+
+.content {
+    display: flex;
+    justify-content: center;
+}

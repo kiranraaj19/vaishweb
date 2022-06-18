@@ -4,6 +4,13 @@ import "./css/HomePage.css"
 import { motion } from "framer-motion"
 // importing all images for the marquee effect
 import images from "./images"
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+} from '@chakra-ui/react'
 
 function HomePage() {
     const [height, setHeight] = useState();
