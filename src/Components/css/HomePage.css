@@ -5,8 +5,10 @@
     font-size: 1.5em;
     color: #48BB78;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
-
+    
 
 .item {
     height: 500px;
@@ -30,4 +32,9 @@
 .content {
     display: flex;
     justify-content: center;
+}
+
+.OpenTags {
+    color: #5ed891;
+    font-size: 0.8em;
 }

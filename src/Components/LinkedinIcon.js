@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box, Flex, Slide, useDisclosure, Button } from '@chakra-ui/react'
+import { Box, Flex, Slide, useDisclosure } from '@chakra-ui/react'
 import { FiLinkedin} from "react-icons/fi";
-
+import {GrClose} from "react-icons/gr"
 
 function LinkedinIcon() {
     const { isOpen, onToggle } = useDisclosure()
@@ -20,7 +20,7 @@ function LinkedinIcon() {
                 >
                     <Flex justify="space-between">
                         <p>Follow me on LinkedIn</p>
-                        <Button bg="blue.200" onClick={onToggle}>Close</Button>
+                        <GrClose color="white" onClick = {onToggle} size="2em"/>
                     </Flex>
                 </Box>
             </Slide>

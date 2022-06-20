@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box, Flex, Slide, useDisclosure, Button } from '@chakra-ui/react'
+import { Box, Flex, Slide, useDisclosure} from '@chakra-ui/react'
 import { FiTwitter } from "react-icons/fi";
-
+import {GrClose} from "react-icons/gr"
 
 function TwitterIcon() {
     const { isOpen, onToggle } = useDisclosure()
@@ -20,7 +20,7 @@ function TwitterIcon() {
                 >
                     <Flex justify="space-between">
                         <p>Follow me on Twitter</p>
-                        <Button bg="blue.200" onClick={onToggle}>Close</Button>
+                        <GrClose onClick = {onToggle} size="2em"/>
                     </Flex>
                 </Box>
             </Slide>
