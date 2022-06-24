@@ -32,7 +32,7 @@ function HomePage() {
             <Flex>
                 <motion.div initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1.2 }}>
                     <Flex h="100%" className="HomePageContent" align="center" direction="column">
-                        <motion.div layout>
+                        <motion.div layout transition={{duration:0.6}}>
                             <motion.div layout>
                             Vaishnavi Padmanathan is an Indian writer for screen and television who has been asking the question 'Why not?' since she was a kid. As her parents did not have the answer to this, she started exploring this very question in her daydreams from an early age. Those daydreams have now taken the form of a lifelong quest after she majored in journalism and then found her passion for screenwriting through making no-budget student short films. {!selected && (<div onClick={() => setSelected(!selected)} className="OpenTags">Read More...</div>)}
                             </motion.div>
