@@ -19,7 +19,7 @@ function LinkedinIcon() {
                     shadow='md'
                 >
                     <Flex justify="space-between">
-                        <p>Follow me on LinkedIn</p>
+                        <p>Follow me on <a onClick={()=>{window.location.href("www.linkedin.com/in/vaishnavi-padmanathan")}}>LinkedIn</a></p>
                         <GrClose color="white" onClick = {onToggle} size="2em"/>
                     </Flex>
                 </Box>
