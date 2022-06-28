@@ -10,8 +10,8 @@ import "./App.css"
 function App() {
   return (
     <Router>
-      <Flex h="80vh" w="100vw" className="container">
-        <Name />
+      <Name />
+      <Flex h="80vh" w="100vw" className="container">   
         <MainContent />
         <Sidebar
           Tabs={[

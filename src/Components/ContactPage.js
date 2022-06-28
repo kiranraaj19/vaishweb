@@ -7,7 +7,7 @@ function ContactPage() {
 
     return (
         <motion.div className="container" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1.5 }}>
-            <form action="https://formsubmit.co/kiranraajsekar@gmail.com" method="POST" class="form_container">
+            <form action="https://formsubmit.co/e65a65fa7458aff33ad1821791c42513" method="POST" class="form_container">
                 <Flex direction="column" gap="25px" w="60%" justify="center">
                     <Input placeholder="Name" name="Name" focusBorderColor="green.200" />
                     <Input placeholder="Email" name="Email" focusBorderColor="green.200" required/>

@@ -2,18 +2,7 @@
 
 .Name {
     font-family: 'Staatliches', cursive;
-    writing-mode: vertical-lr;
-    text-orientation: sideways;
-    font-size: 4.5em;
-    transform: rotate(180deg);
+    font-size: 2em;
     color: #48BB78;
-    max-width: 80px;
-    min-height: 695px;
-    padding-top: 50px;
-    padding-right: 98px;
-    
-}
-
-.spacer {
-    width: 0px;
+    padding-left: 20px;
 }
