@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Name />
-      <Box w="100vw" className="container">   
+      <Flex w="100vw" direction={["column-reverse","column-reverse","column-reverse","row"]} className="container">   
         <MainContent />
         <Sidebar
           Tabs={[
@@ -19,7 +19,7 @@ function App() {
             { id: 3, title: "Contact", link: "/contact" }
           ]}
         />
-      </Box>
+      </Flex>
       <Footer/>
     </Router>
   );
