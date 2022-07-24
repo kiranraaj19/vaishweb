@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex } from '@chakra-ui/react'
+import { Flex,Box } from '@chakra-ui/react'
 import MainContent from './Components/MainContent'
 import Sidebar from './Components/Sidebar'
 import Name from './Components/Name'
@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Name />
-      <Flex h="80vh" w="100vw" className="container">   
+      <Box w="100vw" className="container">   
         <MainContent />
         <Sidebar
           Tabs={[
@@ -19,8 +19,8 @@ function App() {
             { id: 3, title: "Contact", link: "/contact" }
           ]}
         />
-      </Flex>
-      <Footer />
+      </Box>
+      <Footer/>
     </Router>
   );
 }

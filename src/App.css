@@ -1,7 +1,3 @@
 .container {
-    min-height: 600px;
-}
-
-body {
-    overflow-y: hidden;
+    height: auto;
 }

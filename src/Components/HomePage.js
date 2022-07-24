@@ -17,7 +17,7 @@ function HomePage() {
     }, [])
 
     return (
-        <Flex p="50px" gap="50px" h="100%">
+        <Flex p="50px" gap="50px" h="100%" direction={['column','column','column','row']}>
             <motion.div ref={carousel} className="carousel" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.6, type: "ease-in" }}>
                 <motion.div drag="y" dragConstraints={{ bottom: 0, top: -height }} className="inner-carousel">
                     {images.map(image => {
