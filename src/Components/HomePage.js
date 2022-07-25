@@ -17,7 +17,7 @@ function HomePage() {
     }, [])
 
     return (
-        <Flex p="50px" gap="50px" h="100%" direction={['column','column','column','row']}>
+        <Flex p={["0px 50px",,"50px","50px"]} gap="50px" h={["100%","100%","100%","85vj"]} w="90vw" direction={['column','column','column','row']}>
             <motion.div ref={carousel} className="carousel" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.6, type: "ease-in" }}>
                 <motion.div drag="y" dragConstraints={{ bottom: 0, top: -height }} className="inner-carousel">
                     {images.map(image => {
@@ -31,7 +31,7 @@ function HomePage() {
             </motion.div>
             <Flex>
                 <motion.div initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1.2 }}>
-                    <Flex h="100%" className="HomePageContent" align="center" direction="column">
+                    <Flex h="100%" className="HomePageContent" align="center" direction="column" px="15px">
                         <motion.div layout transition={{duration:0.6}}>
                             <motion.div layout>
                             <Box fontSize={["20px","20px","24px","24px"]}>
