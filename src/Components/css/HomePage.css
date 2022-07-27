@@ -9,44 +9,6 @@
     justify-content: center;
     align-items: center;
 }
-    
-
-.item {
-    height: 500px;
-    width: 375px;
-    padding: 0px 10px;
-}
-
-img {
-    transform: scale(1);
-}
-@media only screen and (min-width:0em){
-    img {
-        transform: scale(0.75);
-    }
-}
-
-@media only screen and (min-width:48em){
-    img {
-        transform: scale(1);
-    }
-}
-
-.item img {
-    border-radius: 5px;
-}
-
-.inner-carousel {
-    width: 375px;
-}
-
-.carousel {
-    min-width: 375px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
 .content {
     display: flex;
     justify-content: center;
@@ -56,3 +18,4 @@ img {
     color: #5ed891;
     font-size: 0.8em;
 }
+
