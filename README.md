@@ -1,3 +1,3 @@
 ### Vaishnavi Padmanathans Website Repository
 
-[Visit Website Here](vaishweb.vercel.app)
+[Visit Website Here](https://vaishweb.vercel.app)
