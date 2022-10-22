@@ -15,7 +15,7 @@ function HomePage() {
 
     return (
         <Flex p={["0px 20px","0 20px", "0 20px","20px"]} h="auto" w="100%" direction={['column', 'column', 'column', 'row']} align="center" justify="center">
-            <Flex align="center" w={["50%","50%","30%","250px"]} py={["15px","15px","15px","0px"]}>
+            <Flex align="center" w={["50%","50%","30%","300px"]} py={["15px","15px","15px","0px"]}>
                 <img src={images[0]} alt="Vaishnavi"></img>
             </Flex>
             <Flex w={["100%","100%","70%","70%"]} px={["0px","0px","0px","15px"]}>

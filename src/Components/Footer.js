@@ -10,7 +10,7 @@ function Footer() {
     return (
         <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:2}}>
             <Flex direction="row" mt="4vh" w="100%" justify="center" align="center">
-                <Box h="3px" w={["60%","70%","85%","85%"]} bg="green.200" ></Box>
+                <Box h="3px" w={["60%","70%","85%","90%"]} bg="green.200" ></Box>
                 <Flex gap="1em" ml="1em" mr="10px" className="Container">
                     <LinkedinIcon />
                     <TwitterIcon />

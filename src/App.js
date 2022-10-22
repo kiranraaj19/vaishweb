@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Name />
-      <Flex w="100%" p="10px" direction={["column-reverse","column-reverse","column-reverse","row"]} className="container">   
+      <Flex w="100%" direction={["column-reverse","column-reverse","column-reverse","row"]} className="container">   
         <MainContent />
         <Sidebar
           Tabs={[

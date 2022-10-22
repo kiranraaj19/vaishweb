@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 function MainContent() {
     return (
-        <Box h="auto" w="100%">
+        <Box h="auto" w="100%" padding="10px">
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1, delay: 2 }}>
                 <Flex bg="green.50" borderRadius="10" h="auto" justify="center" align="center">
                     <AnimatedRoutes />
