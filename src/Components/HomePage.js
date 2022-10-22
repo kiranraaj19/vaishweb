@@ -1,13 +1,11 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Flex, Box } from '@chakra-ui/react'
 import "./css/HomePage.css"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 // importing all images for the marquee effect
 import images from "./images"
 
 function HomePage() {
-    const [height, setHeight] = useState();
-
     // state variables to see if read more is pressed or not
     const [selected, setSelected] = useState(null);
 
@@ -18,7 +16,7 @@ function HomePage() {
     return (
         <Flex p={["0px 20px","0 20px", "0 20px","20px"]} h="auto" w="100%" direction={['column', 'column', 'column', 'row']} align="center" justify="center">
             <Flex align="center" w={["50%","50%","30%","250px"]} py={["15px","15px","15px","0px"]}>
-                <img src={images[0]}></img>
+                <img src={images[0]} alt="Vaishnavi"></img>
             </Flex>
             <Flex w={["100%","100%","70%","70%"]} px={["0px","0px","0px","15px"]}>
                 <motion.div initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 1.2 }}>

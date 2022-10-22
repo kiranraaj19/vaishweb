@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex,Box } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import MainContent from './Components/MainContent'
 import Sidebar from './Components/Sidebar'
 import Name from './Components/Name'

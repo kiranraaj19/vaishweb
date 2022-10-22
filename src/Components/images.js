@@ -1,3 +1,5 @@
 import image1 from "./assets/vaish1.jpeg"
 
-export default [image1];
+let arr = [image1]
+
+export default arr;

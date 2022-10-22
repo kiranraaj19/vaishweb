@@ -4,9 +4,6 @@ import './css/Name.css'
 import { Box, Flex } from '@chakra-ui/react'
 
 function Name() {
-    let width = window.innerWidth;
-    let height = window.innerHeight;
-
     return (
         <>
             <motion.div className="Name" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ type: "tween", duration: 1.2, delay: 0.6 }}>
