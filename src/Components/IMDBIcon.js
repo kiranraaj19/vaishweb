@@ -1,14 +1,14 @@
 import React from 'react';
 import { Box, Flex, Slide, useDisclosure } from '@chakra-ui/react'
-import { FiLinkedin } from "react-icons/fi";
+import { SiImdb } from "react-icons/si";
 import {GrClose} from "react-icons/gr"
 
-function LinkedinIcon() {
+function IMDBIcon() {
     const { isOpen, onToggle } = useDisclosure()
 
     return (
         <>  
-            <FiLinkedin onClick={onToggle} className="footer_icons" size="2em" />
+            <SiImdb onClick={onToggle} className="footer_icons" size="2em" />
             <Slide direction='bottom' in={isOpen} style={{ zIndex: 10 }}>
                 <Box
                     p='50px'
@@ -19,7 +19,7 @@ function LinkedinIcon() {
                     shadow='md'
                 >
                     <Flex justify="space-between">
-                        <p>Follow me on <a href="https://www.linkedin.com/in/vaishnavi-padmanathan/"><u>LinkedIn</u></a></p>
+                        <p>Follow me on <a href="https://www.imdb.com/name/nm14059750/"><u>IMDB</u></a></p>
                         <GrClose color="white" onClick = {onToggle} size="2em"/>
                     </Flex>
                 </Box>
@@ -28,4 +28,4 @@ function LinkedinIcon() {
     );
 }
 
-export default LinkedinIcon
+export default IMDBIcon
