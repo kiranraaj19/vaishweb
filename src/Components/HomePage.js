@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Flex, Box, Heading } from '@chakra-ui/react'
+import { Flex, Box } from '@chakra-ui/react'
 import "./css/HomePage.css"
 import { motion } from "framer-motion"
 // importing all images for the marquee effect
@@ -24,15 +24,14 @@ function HomePage() {
 						<motion.div layout transition={{ duration: 0.6 }}>
 							<motion.div layout>
 								<Box fontSize={["15px", "20px", "24px", "24px"]}>
-									<Heading as='h3' size='lg'> Me, Myself, and I (Named after the first essay I ever wrote as a kid) </Heading>
-									I am an Indian writer for television and screen who has been asking the question 'Why not?' to everything since I was a kid. As my parents did not have the answers to my constant questioning of the world, I started investigating my queries in my daydreams. Those daydreams have now taken the form of a lifelong quest for storytelling. I settled on this as my life's purpose only after majoring in journalism where I learned the useful inverted pyramid and made a bunch of zero-budget student films.
+									I am an Indian writer for television and screen who has been asking the question 'Why not?' to everything since I was a kid. As my parents did not have the answers to my constant questioning of the world, I started investigating my queries in my daydreams. Those daydreams have now taken the form of a lifelong quest for storytelling. I settled on this as my life's purpose only after majoring in journalism where I learned the useful inverted pyramid and made a bunch of zero-budget student films.                                                                                                                     
 		{!selected && (<div onClick={() => setSelected(!selected)} className="OpenTags">Read More...</div>)}
 								</Box>
 							</motion.div>
 							{selected && (
 								<motion.div>
 									<Box fontSize={["15px", "20px", "24px", "24px"]}>
-								<br/>
+								<br/>		
 										Although I hold an MFA degree in Dramatic Writing from New York University's Tisch School of the Arts, I hold my (functionally dysfunctional) family more dear as they are my biggest source of inspiration in life and my writings. I tend to write all of my stories as letters to my loved ones. I also like to make sure that each story of mine has humor and specificity at its core. Once upon a time, I used to feel like I am traveling the world when I consumed a story a day, and that's what I wish and hope for the folks who experience my work. <br/><br/>
 										And one last thing to know about me, I plan to build my own secret library one day so that I can daydream (and write) in peace.
 								<div onClick={() => setSelected(!selected)} className="OpenTags">Read Less...</div>
