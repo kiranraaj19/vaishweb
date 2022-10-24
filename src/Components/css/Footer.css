@@ -1,17 +1,17 @@
 @keyframes fillcolor {
     0% {
-        color: #48BB78;
+        color: #70CDA3;
         fill: #ffffff;
     }
 
     100% {
-        color: #48BB78;
+        color: #70CDA3;
         fill: #48BB78;
     }
 }
 
 .Container>* {
-    color: #48BB78;
+    color: #70CDA3;
 }
 
 .Container>*:hover {
